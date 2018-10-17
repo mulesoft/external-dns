@@ -1,0 +1,4 @@
+product: core-paas
+component: external-dns
+
+strategy: docker

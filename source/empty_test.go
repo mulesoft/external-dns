@@ -20,8 +20,8 @@ import (
 	"testing"
 )
 
-func TestEmptyReturnsEmpty(t *testing.T) {
-	e := NewEmpty()
+func TestEmptySourceReturnsEmpty(t *testing.T) {
+	e := NewEmptySource()
 
 	endpoints, err := e.Endpoints()
 	if err != nil {

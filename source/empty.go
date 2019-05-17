@@ -26,7 +26,7 @@ func (e *emptySource) Endpoints() ([]*endpoint.Endpoint, error) {
 	return []*endpoint.Endpoint{}, nil
 }
 
-// NewEmpty creates a new emptySource.
-func NewEmpty() Source {
+// NewEmptySource creates a new emptySource.
+func NewEmptySource() Source {
 	return &emptySource{}
 }
